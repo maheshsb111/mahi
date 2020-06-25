@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="Validation.js"></script>
+</head>
+<body>
+<form name="myform" action="test" method="GET" onsubmit="return validation()" >
+<label>Name:</label>
+<input type="text" placeholder="Enter name" name="t1"/><br>
+<label>Age:</label>
+<input type="text" placeholder="Enter age" name="t2"><br>
+<!-- Hidden box field -->
+<input type="hidden" name="vflag" value="no"/>
+<input type="submit" value="VOTE"/>
+</form>
+</body>
+</html>
